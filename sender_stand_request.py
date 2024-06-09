@@ -12,9 +12,5 @@ def post_new_user(body):
                          json=body,
                          headers=data.headers)
 
-# Вызов функции post_new_user с телом запроса для создания нового пользователя из модуля data
-    response = post_new_user(data.user_body);
-    print(response.status_code)
-    print(response.json())
 
 
